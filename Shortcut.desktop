@@ -1,7 +1,8 @@
 [Desktop Entry]
 
-# REQUIRED [String] The name of the application
+# REQUIRED [String] The name of the application. Also, at least the current locale version of the name also needs to be listed in order for it to show up properly in file managers and on desktops.
 Name=
+Name[en_US]=
 
 # [String] A comment which can/will be used as a tooltip
 Comment=
