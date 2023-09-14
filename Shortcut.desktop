@@ -45,14 +45,14 @@ Terminal=false
 # [String] A generic name of the application if helpful, like "Web Browser" for Firefox
 #GenericName=
 
-# [String] A list of strings which may be used in addition to other metadata to describe this entry. This can be useful e.g. to facilitate searching through entries. The values are not meant for display, and should not be redundant with the values of Name or GenericName. 
+# [String/semicolon-delimited] A list of strings which may be used in addition to other metadata to describe this entry. This can be useful e.g. to facilitate searching through entries. The values are not meant for display, and should not be redundant with the values of Name or GenericName. 
 #Keywords=
 
 # [Boolean] NoDisplay means "this application exists, but don't display it in the menus". This can be useful to e.g. associate this application with MIME types, so that it gets launched from a file manager (or other apps), without having a menu entry for it (there are tons of good reasons for this, including e.g. the netscape -remote, or kfmclient openURL kind of stuff).
 #NoDisplay=
 
 # [String/path] Path to an executable file on disk used to determine if the program is actually installed. If the path is not an absolute path, the file is looked up in the $PATH environment variable. If the file is not present or if it is not executable, the entry may be ignored (not be used in menus, for example). 
-# TryExec=
+#TryExec=
 
 # [String/semicolon-delimited] The MIME type(s) supported by this application
 #MimeType=
