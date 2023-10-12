@@ -1,3 +1,7 @@
+#!/usr/bin/gio launch
+# The shebang line allows desktop files to be launched directly from the commandline.
+# So long as glib2's gio tool is installed.
+
 [Desktop Entry]
 
 # REQUIRED [String] The name of the application. Also, at least the current locale version of the name also needs to be listed in order for it to show up properly in file managers and on desktops.
